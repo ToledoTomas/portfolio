@@ -1,15 +1,11 @@
 import React from "react";
-import background from "../assets/6bbadf9f-c577-4b0f-b5f3-a95416006354.jpg";
 import Button from "../components/Button/Button";
+import arrow from "../assets/down-arrow.png";
+import About from "./About";
 
 const Home = () => {
   return (
     <div>
-      <img
-        className="w-full h-screen opacity-10"
-        src={background}
-        alt="Imagen de fondo"
-      />
       <h1 className="font-bold text-5xl absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         TITULO IMPORTANTE
       </h1>
@@ -18,6 +14,12 @@ const Home = () => {
         exercitationem, distinctio, aliquid, tempore natus doloribus
       </h3>
       <Button />
+      <img
+        className="w-10 h-10 mx-auto mb-14 absolute items-center bottom-0 left-1/2 transform -translate-x-1/2 transition-all duration-300 hover:scale-125"
+        src={arrow}
+        alt="flecha"
+      />
+      <About />
     </div>
   );
 };

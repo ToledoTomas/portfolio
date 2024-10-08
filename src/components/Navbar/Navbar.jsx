@@ -4,7 +4,7 @@ import Links from "../Links/Links";
 
 const Navbar = () => {
   return (
-    <div className="flex py-2 justify-around">
+    <div className="flex py-2 justify-around relative bg-white">
       <Logo />
       <Links />
     </div>
