@@ -3,6 +3,8 @@ import Button from "../components/Button/Button";
 import arrow from "../assets/down-arrow.png";
 import About from "./About";
 import Projects from "./Projects";
+import projectsData from "../api/projects.json";
+import Cards from "../components/Cards/Cards";
 
 const Home = () => {
   return (
@@ -22,6 +24,7 @@ const Home = () => {
       />
       <About />
       <Projects />
+      <Cards projects={projectsData.projects} />
     </div>
   );
 };

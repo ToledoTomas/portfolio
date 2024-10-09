@@ -1,0 +1,22 @@
+{ 
+    "projects":
+        [
+            {
+            "id": 1,
+            "name": "LunchUp",
+            "description": "This is a project",
+            "date": "Ago 2024",
+            "image": "./Lunchup.png",
+            "stack":["Node", "Express", "PostgreSQL", "JWT", "Mercado Pago", "Brevo"]
+        },
+        {
+            "id": 2,
+            "name": "Expense-tracker",
+            "description": "This is a project",
+            "date": "Oct 2024",
+            "image": "./Expense-tracker.png",
+            "stack":["Node", "MongoDB", "CommanderJs", "InquirerJs"]
+        }
+    ]
+}
+
