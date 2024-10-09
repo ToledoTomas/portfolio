@@ -1,8 +1,8 @@
 import "./App.css";
 import Navbar from "./components/NavBar/Navbar";
 import SocialMedia from "./components/SocialMedia/SocialMedia";
-import About from "./views/About";
 import Home from "./views/Home";
+// import Projects from "./views/Projects";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <Home />
       <SocialMedia />
-      {/* <About /> */}
+      {/* <Projects /> */}
     </>
   );
 }

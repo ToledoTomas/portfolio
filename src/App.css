@@ -2,10 +2,12 @@
 
 body{
   font-family: 'Nunito', sans-serif;
+  position: relative;
+  min-height: 100vh;
 }
 
 .background{
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   left: 0;
   width: 100%;
