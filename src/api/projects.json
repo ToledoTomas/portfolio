@@ -4,18 +4,18 @@
             {
             "id": 1,
             "name": "LunchUp",
-            "description": "This is a project",
-            "date": "Ago 2024",
-            "image": "./Lunchup.png",
-            "stack":["Node", "Express", "PostgreSQL", "JWT", "Mercado Pago", "Brevo"]
+            "description": "Este proyecto es la solución para que los padres controlen la nutrición de sus hijos durante los recreos del colegio. Esta app, puede seleccionar, personalizar y ordenar viandas saludables para los alumnos.",
+            "url":"https://lunchuppf.netlify.app/",
+            "image": "/Lunchup.png",
+            "stack":["Express", "PostgreSQL", "JWT"]
         },
         {
             "id": 2,
-            "name": "Expense-tracker",
-            "description": "This is a project",
-            "date": "Oct 2024",
-            "image": "./Expense-tracker.png",
-            "stack":["Node", "MongoDB", "CommanderJs", "InquirerJs"]
+            "name": "CLI Expense-tracker",
+            "description": "Este es un proyecto de Cli para gestionar gastos personales, construido con Node.js, Commander.js y MongoDB. A través de este CLI, puedes añadir, listar, buscar, eliminar y resumir tus gastos.",
+            "url":"https://github.com/ToledoTomas/cli-expense-tracker",
+            "image": "/Expense-tracker.png",
+            "stack":["MongoDB", "CommanderJs", "InquirerJs"]
         }
     ]
 }

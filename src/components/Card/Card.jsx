@@ -2,15 +2,32 @@ import React from "react";
 
 const Card = ({ projects }) => {
   return (
-    <div className="w-1/2">
-      <h1 className="text-lg font-bold">{projects.name}</h1>
-      <img src={projects.image} alt={`Imagen de ${projects.name}`} />
-      <div>
-        <p>{projects.description}</p>
-        <p>{projects.date}</p>
-        <p>{projects.stack.join(" - ")}</p>
-      </div>
-    </div>
+    <a
+      target="_blank"
+      href={projects.url}
+      className="w-3/4 my-5 rounded-lg hover:bg-white hover:shadow-2xl transition-all duration-75"
+    >
+      <h1 className="text-lg font-bold mb-2 text-center">{projects.name}</h1>
+      <img
+        className="w-80 h-36 rounded-md items-center mx-auto mb-2"
+        src={projects.image}
+        alt={`Imagen de ${projects.name}`}
+      />
+      <p className="text-center justify-center mb-3">{projects.description}</p>
+      {/* <p className="border-thistle rounded-lg border-2 text-center">
+        {projects.stack.join(" - ")}
+      </p> */}
+      <ul className="flex flex-wrap justify-center">
+        {projects.stack.map(stack => (
+          <li
+            className="border-cerulean rounded-lg border-2 p-1 m-1 text-center"
+            key={stack}
+          >
+            {stack}
+          </li>
+        ))}
+      </ul>
+    </a>
   );
 };
 

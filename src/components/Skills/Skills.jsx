@@ -12,6 +12,7 @@ import nest from "../../assets/Nest.js.svg";
 import postgresql from "../../assets/PostgresSQL.svg";
 import tailwind from "../../assets/Tailwind CSS.svg";
 import typescript from "../../assets/TypeScript.svg";
+import redux from "../../assets/Redux.svg";
 
 const Skills = () => {
   return (
@@ -21,67 +22,72 @@ const Skills = () => {
         <img
           className="rounded-lg w-16 h-16 mx-2 my-2 py-3 border-2 border-cerulean"
           src={html}
-          alt="#"
+          alt={`Logo de ${html}`}
         />
         <img
           className="rounded-lg w-16 h-16 mx-2 my-2 py-3 border-2 border-cerulean"
           src={css}
-          alt="#"
+          alt={`Logo de ${css}`}
         />
         <img
           className="rounded-lg w-16 h-16 mx-2 my-2 py-3 border-2 border-cerulean"
           src={javascript}
-          alt="#"
+          alt={`Logo de ${javascript}`}
         />
         <img
           className="rounded-lg w-16 h-16 mx-2 my-2 py-3 border-2 border-cerulean"
           src={react}
-          alt="#"
+          alt={`Logo de ${react}`}
         />
         <img
           className="rounded-lg w-16 h-16 mx-2 my-2 py-3 border-2 border-cerulean"
           src={tailwind}
-          alt="#"
+          alt={`Logo de ${tailwind}`}
+        />
+        <img
+          className="rounded-lg w-16 h-16 mx-2 my-2 py-3 border-2 border-cerulean"
+          src={redux}
+          alt={`Logo de ${redux}`}
         />
         <img
           className="rounded-lg w-16 h-16 mx-2 my-2 py-3 border-2 border-cerulean"
           src={node}
-          alt="#"
+          alt={`Logo de ${node}`}
         />
         <img
           className="rounded-lg w-16 h-16 mx-2 my-2 py-3 border-2 border-cerulean"
           src={express}
-          alt="#"
+          alt={`Logo de ${express}`}
         />
         <img
           className="rounded-lg w-16 h-16 mx-2 my-2 py-3 border-2 border-cerulean"
           src={nest}
-          alt="#"
+          alt={`Logo de ${nest}`}
         />
         <img
           className="rounded-lg w-16 h-16 mx-2 my-2 py-3 border-2 border-cerulean"
           src={typescript}
-          alt="#"
+          alt={`Logo de ${typescript}`}
         />
         <img
           className="rounded-lg w-16 h-16 mx-2 my-2 py-3 border-2 border-cerulean"
           src={postgresql}
-          alt="#"
+          alt={`Logo de ${postgresql}`}
         />
         <img
           className="rounded-lg w-16 h-16 mx-2 my-2 py-3 border-2 border-cerulean"
           src={mongodb}
-          alt="#"
+          alt={`Logo de ${mongodb}`}
         />
         <img
           className="rounded-lg w-16 h-16 mx-2 my-2 py-3 border-2 border-cerulean"
           src={git}
-          alt="#"
+          alt={`Logo de ${git}`}
         />
         <img
           className="rounded-lg w-16 h-16 mx-2 my-2 py-3 border-2 border-cerulean"
           src={docker}
-          alt="#"
+          alt={`Logo de ${docker}`}
         />
       </div>
     </div>
