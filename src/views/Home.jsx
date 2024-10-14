@@ -5,6 +5,7 @@ import About from "./About";
 import Projects from "./Projects";
 import projectsData from "../api/projects.json";
 import Cards from "../components/Cards/Cards";
+import Contact from "./Contact";
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
       <About />
       <Projects />
       <Cards projects={projectsData.projects} />
+      <Contact />
     </div>
   );
 };

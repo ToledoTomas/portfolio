@@ -16,7 +16,7 @@ import redux from "../../assets/Redux.svg";
 
 const Skills = () => {
   return (
-    <div className="w-1/3 text-justify flex-col mx-32">
+    <div className="w-1/3 text-justify flex-col mx-32 my-4">
       <h2 className="font-bold text-xl my-5 mx-2">HABILIDADES</h2>
       <div className="flex flex-wrap">
         <img

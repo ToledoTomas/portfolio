@@ -10,6 +10,7 @@ export default {
       gunmetal: "#16262E",
       white: "#FFFFFF",
       black: "#000000",
+      error: "#FF0000",
     },
     extend: {},
   },
