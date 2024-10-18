@@ -9,17 +9,15 @@ const Home = () => {
     <div className="flex flex-col items-center justify-center min-h-screen">
       <Navbar />
       <div className="text-center mt-40">
-      <h1 className="font-bold text-5xl">
-        TITULO IMPORTANTE
-      </h1>
-      <h3 className="text-2xl mt-5 max-w-3xl mx-auto">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
-        exercitationem, distinctio, aliquid, tempore natus doloribus
-      </h3>
+        <h1 className="font-bold text-5xl">Hola, soy Toledo Tomás👋</h1>
+        <h3 className="text-2xl mt-5 max-w-3xl mx-auto">
+          Desarrollador web full stack con experiencia en la creación de
+          aplicaciones dinámicas y escalables utilizando tecnologías modernas.
+        </h3>
       </div>
       <Button />
       <img
-        className="w-10 h-10 mt-60 transition-all duration-300 hover:scale-125"
+        className="w-10 h-10 mt-60 transition-all duration-300 animate-bounce"
         src={arrow}
         alt="flecha"
       />

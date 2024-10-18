@@ -8,7 +8,9 @@ const Projects = () => {
     >
       <h2 className="font-bold text-3xl">PROYECTOS</h2>
       <div className="w-10 h-1 rounded-md mx-auto my-5 bg-cerulean"></div>
-      <p className="text-xl">Lorem ipsum dolor sit amet consectetur</p>
+      <p className="text-xl">
+        Sección donde encontrarás algunos de mis proyectos.
+      </p>
     </div>
   );
 };
