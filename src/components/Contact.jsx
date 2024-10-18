@@ -1,16 +1,18 @@
 import React from "react";
+import Form from "./Form";
 
-const Projects = () => {
+const Contact = () => {
   return (
     <div
-      className="text-center absolute left-1/3  top-1/2 mt-36 mx-24"
-      id="projects"
+      className="text-center w-full max-w-2xl mt-20"
+      id="contact"
     >
-      <h2 className="font-bold text-3xl">PROYECTOS</h2>
+      <h2 className="font-bold text-3xl">CONTACTO</h2>
       <div className="w-10 h-1 rounded-md mx-auto my-5 bg-cerulean"></div>
       <p className="text-xl">Lorem ipsum dolor sit amet consectetur</p>
+      <Form />
     </div>
   );
 };
 
-export default Projects;
+export default Contact;

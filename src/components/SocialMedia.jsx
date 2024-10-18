@@ -1,12 +1,12 @@
 import React from "react";
-import github from "../../assets/github-sign.png";
-import linkedin from "../../assets/linkedin.png";
-import instagram from "../../assets/instagram.png";
-import email from "../../assets/message.png";
+import github from "../assets/github-sign.png";
+import linkedin from "../assets/linkedin.png";
+import instagram from "../assets/instagram.png";
+import email from "../assets/message.png";
 
 const SocialMedia = () => {
   return (
-    <div className="w-14 py-1 rounded-lg h-auto fixed top-1/4">
+    <div className="w-14 py-1 rounded-lg h-auto top-1/4 fixed left-0">
       <div className="flex-col">
         <a
           className="m-0 p-0"

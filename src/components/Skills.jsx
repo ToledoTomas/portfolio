@@ -1,18 +1,18 @@
 import React from "react";
-import javascript from "../../assets/JavaScript.svg";
-import react from "../../assets/React.svg";
-import node from "../../assets/Node.js.svg";
-import css from "../../assets/CSS3.svg";
-import docker from "../../assets/Docker.svg";
-import express from "../../assets/Express.svg";
-import git from "../../assets/Git.svg";
-import html from "../../assets/HTML5.svg";
-import mongodb from "../../assets/MongoDB.svg";
-import nest from "../../assets/Nest.js.svg";
-import postgresql from "../../assets/PostgresSQL.svg";
-import tailwind from "../../assets/Tailwind CSS.svg";
-import typescript from "../../assets/TypeScript.svg";
-import redux from "../../assets/Redux.svg";
+import javascript from "../assets/JavaScript.svg";
+import react from "../assets/React.svg";
+import node from "../assets/Node.js.svg";
+import css from "../assets/CSS3.svg";
+import docker from "../assets/Docker.svg";
+import express from "../assets/Express.svg";
+import git from "../assets/Git.svg";
+import html from "../assets/HTML5.svg";
+import mongodb from "../assets/MongoDB.svg";
+import nest from "../assets/Nest.js.svg";
+import postgresql from "../assets/PostgresSQL.svg";
+import tailwind from "../assets/Tailwind CSS.svg";
+import typescript from "../assets/TypeScript.svg";
+import redux from "../assets/Redux.svg";
 
 const Skills = () => {
   return (

@@ -5,9 +5,9 @@ const Logo = () => {
     <div>
       <a
         className=" my-3 mx-5 py-2 px-3 text-xl font-bold text-black hover:text-cerulean "
-        href="#"
+        href=""
       >
-        LOGO
+        INICIO
       </a>
     </div>
   );
