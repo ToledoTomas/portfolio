@@ -6,7 +6,7 @@ import email from "../assets/message.png";
 
 const SocialMedia = () => {
   return (
-    <div className="w-14 py-1 rounded-lg h-auto top-1/4 fixed left-0">
+    <div className="w-14 py-1 rounded-lg h-auto top-1/4 fixed left-0 z-10">
       <div className="flex-col">
         <a
           className="m-0 p-0"

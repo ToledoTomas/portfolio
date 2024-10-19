@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useRef } from "react";
 import { useForm } from "react-hook-form";
-import { useState } from "react";
+import emailjs from "@emailjs/browser";
 
 const Form = () => {
   const {
@@ -10,7 +10,25 @@ const Form = () => {
     reset,
   } = useForm();
 
+  const form = useRef();
+
   const onSubmit = handleSubmit(data => {
+    emailjs
+      .sendForm(
+        "service_feokr62",
+        "template_2xm2vxo",
+        form.current,
+        "DJN9BirFhdPxRyw9-",
+      )
+      .then(
+        () => {
+          console.log("Correo enviado con éxito");
+        },
+        error => {
+          console.log("Error: ", error.text);
+        },
+      );
+
     console.log(data);
     reset();
   });
@@ -18,15 +36,16 @@ const Form = () => {
   return (
     <div>
       <form
+        ref={form}
         onSubmit={onSubmit}
         className="w-full mx-auto flex flex-col justify-center mt-16 mb-10 p-10 bg-white rounded-2xl shadow-2xl"
         action="submit"
       >
-        <label className="text-start ml-1 mt-3" htmlFor="name">
+        <label className="text-start ml-1 mt-3" htmlFor="user_name">
           Nombre
         </label>
         <input
-          {...register("name", {
+          {...register("user_name", {
             required: {
               value: true,
               message: "Por favor ingrese su nombre",
@@ -38,18 +57,18 @@ const Form = () => {
           })}
           className="mb-2 p-2 rounded-md mt-1 bg-charcoal bg-opacity-10 outline-none"
           type="text"
-          name="name"
-          id="name"
+          name="user_name"
+          id="user_name"
           placeholder="Ingrese su nombre"
         />
         <p className="text-start text-error ml-1 mb-2">
-          {errors.name?.message}
+          {errors.user_name?.message}
         </p>
-        <label className="text-start ml-1 mt-3" htmlFor="email">
+        <label className="text-start ml-1 mt-3" htmlFor="user_email">
           Email
         </label>
         <input
-          {...register("email", {
+          {...register("user_email", {
             required: {
               value: true,
               message: "Por favor ingrese su email",
@@ -61,12 +80,12 @@ const Form = () => {
           })}
           className="mb-2 p-2 rounded-md mt-1 bg-charcoal bg-opacity-10 outline-none"
           type="email"
-          name="email"
-          id="email"
+          name="user_email"
+          id="user_email"
           placeholder="Ingrese su email"
         />
         <p className="text-start text-error ml-1 mb-2">
-          {errors.email?.message}
+          {errors.user_email?.message}
         </p>
         <label className="text-start ml-1 mt-3" htmlFor="message">
           Mensaje

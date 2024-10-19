@@ -6,12 +6,10 @@ body{
   min-height: 100vh;
 }
 
-/* .background{
-  /* position: absolute; */
-  /* height: 100%; */
-  /* background-repeat: round; */
-  /* object-fit: cover; */
-  /* object-position: center; */
-  /* z-index: -99; */
-  /* opacity: 0.125; */
-/* } */ 
+ .background{
+  position: absolute;
+  height: 100%;
+  background-repeat: round;
+  z-index: -99;
+  opacity: 0.125;
+} 
