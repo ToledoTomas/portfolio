@@ -12,7 +12,7 @@
         {
             "id": 2,
             "name": "CLI Expense-tracker",
-            "description": "Este es un proyecto de Cli para gestionar gastos personales, construido con Node.js, Commander.js y MongoDB. A través de este CLI, puedes añadir, listar, buscar, eliminar y resumir tus gastos.",
+            "description": "Este proyecto es una herramienta de línea de comandos (CLI) diseñada para simplificar la gestión de gastos personales mediante operaciones CRUD (Crear, Leer, Actualizar y Eliminar).",
             "url":"https://github.com/ToledoTomas/cli-expense-tracker",
             "image": "/Expense-tracker.png",
             "stack":["MongoDB", "CommanderJs", "InquirerJs"]
