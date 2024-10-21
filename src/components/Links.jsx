@@ -1,27 +1,35 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 const Links = () => {
   return (
     <div>
       <ul>
-        <a
-          className="mx-5 my-3 py-2 font-bold text-xl text-black hover:text-cerulean transition-all duration-200"
-          href="#about"
+        <Link
+          to="about"
+          smooth={true}
+          duration={600}
+          className="mx-5 my-3 py-2 font-bold text-xl text-black hover:text-cerulean transition-all duration-200 cursor-pointer"
         >
           SOBRE MI
-        </a>
-        <a
-          className="mx-5 my-3 py-2 font-bold text-xl text-black hover:text-cerulean transition-all duration-200"
-          href="#projects"
+        </Link>
+        <Link
+          to="projects"
+          smooth={true}
+          duration={600}
+          className="mx-5 my-3 py-2 font-bold text-xl text-black hover:text-cerulean transition-all duration-200 cursor-pointer"
         >
           PROYECTOS
-        </a>
-        <a
-          className="mx-5 my-3 py-2 font-bold text-xl text-black hover:text-cerulean transition-all duration-200"
+        </Link>
+        <Link
+          to="contact"
+          smooth={true}
+          duration={600}
+          className="mx-5 my-3 py-2 font-bold text-xl text-black hover:text-cerulean transition-all duration-200 cursor-pointer"
           href="#contact"
         >
           CONTACTO
-        </a>
+        </Link>
       </ul>
     </div>
   );

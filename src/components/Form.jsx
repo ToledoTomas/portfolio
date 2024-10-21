@@ -30,6 +30,11 @@ const Form = () => {
       );
 
     console.log(data);
+
+    alert(
+      "Gracias por contactarme, me pondre en contacto contigo lo antes posible",
+    );
+
     reset();
   });
 

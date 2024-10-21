@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 const Bio = () => {
   return (
@@ -7,19 +8,21 @@ const Bio = () => {
       <p>
         Soy un apasionado por la tecnología y el aprendizaje continuo, siempre
         buscando mejorar mis habilidades y mantenerme al día con las últimas
-        tendencias del sector. 
+        tendencias del sector.
       </p>
       <p>
         Mi formación en la Universidad Abierta Interamericana (UAI) me ha dotado
         de habilidades de pensamiento crítico y una mentalidad proactiva
         necesarias para resolver desafíos complejos de software. 🚀
       </p>
-      <a
-        className="my-8 py-2 px-4 text-lg font-semibold text-white rounded-md bg-cerulean absolute hover:scale-110 transition-all duration-300"
-        href="#contact"
+      <Link
+        to="contact"
+        smooth={true}
+        duration={600}
+        className="my-8 py-2 px-4 text-lg font-semibold text-white rounded-md bg-cerulean absolute hover:scale-110 transition-all cursor-pointer duration-300"
       >
         CONTACTAME
-      </a>
+      </Link>
     </div>
   );
 };
