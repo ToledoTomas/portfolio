@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
       <Navbar />
-      <div className="text-center mt-40">
+      <div className="text-center mt-40 ">
         <h1 className="font-bold text-5xl">Hola, soy Toledo Tomás👋</h1>
         <h3 className="text-2xl mt-5 max-w-3xl mx-auto">
           Desarrollador web full stack con experiencia en la creación de

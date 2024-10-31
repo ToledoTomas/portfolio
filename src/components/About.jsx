@@ -6,10 +6,10 @@ import { Element } from "react-scroll";
 const About = () => {
   return (
     <div
-    className="text-center h-auto relative flex flex-col items-center justify-center py-20"
-    id="about"
+      className="text-center h-auto relative flex flex-col items-center justify-center py-20"
+      id="about"
     >
-    <Element name="about" />
+      <Element name="about" />
       <h2 className="font-bold text-4xl">SOBRE MI</h2>
       <div className="w-10 h-1 rounded-md mx-auto my-5 bg-cerulean"></div>
       <p className="text-xl">

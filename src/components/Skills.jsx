@@ -1,6 +1,8 @@
 import React from "react";
 import javascript from "../assets/JavaScript.svg";
 import react from "../assets/React.svg";
+import java from "../assets/Java.svg";
+import spring from "../assets/Spring.svg";
 import node from "../assets/Node.js.svg";
 import css from "../assets/CSS3.svg";
 import docker from "../assets/Docker.svg";
@@ -48,6 +50,16 @@ const Skills = () => {
           className="rounded-lg w-16 h-16 mx-2 my-2 py-3 border-2 border-cerulean"
           src={redux}
           alt={`Logo de ${redux}`}
+        />
+        <img
+          className="rounded-lg w-16 h-16 mx-2 my-2 py-3 border-2 border-cerulean"
+          src={java}
+          alt={`Logo de ${java}`}
+        />
+        <img
+          className="rounded-lg w-16 h-16 mx-2 my-2 py-3 border-2 border-cerulean"
+          src={spring}
+          alt={`Logo de ${spring}`}
         />
         <img
           className="rounded-lg w-16 h-16 mx-2 my-2 py-3 border-2 border-cerulean"
